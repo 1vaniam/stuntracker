@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "stuntracker",
+  "version": "${version}",
+  "name": "SkillKeybind",
+  "description": "Turning hotbar slot based skills into customizable keybinds.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.stuntracker.StunTrackerMod"
+    ],
+    "modmenu": [
+      "com.stuntracker.config.StunTrackerModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "stuntracker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

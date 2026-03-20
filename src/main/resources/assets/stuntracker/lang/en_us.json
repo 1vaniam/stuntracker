@@ -1,0 +1,48 @@
+{
+  "modmenu.nameTranslation.stuntracker": "SkillKeybind",
+  "modmenu.descriptionTranslation.stuntracker": "Turning hotbar slot based skills into customizable keybinds.",
+
+  "text.autoconfig.stuntracker.title": "SkillKeybind Config",
+
+  "text.autoconfig.stuntracker.option.enabled": "Enabled",
+  "text.autoconfig.stuntracker.option.enabled.@Tooltip": "Master on/off switch for the mod.",
+
+  "text.autoconfig.stuntracker.option.showHud": "Show HUD",
+  "text.autoconfig.stuntracker.option.showHud.@Tooltip": "Display the stun status pill overlay.",
+
+  "text.autoconfig.stuntracker.option.hudPosition": "HUD Position",
+  "text.autoconfig.stuntracker.option.hudPosition.@Tooltip": "Where to render the status pill on screen.",
+
+  "text.autoconfig.stuntracker.option.showSubtitle": "Show Subtitle",
+  "text.autoconfig.stuntracker.option.showSubtitle.@Tooltip": "Also show a vanilla title/subtitle on state change.",
+
+  "text.autoconfig.stuntracker.option.playReadySound": "Play Ready Sound",
+  "text.autoconfig.stuntracker.option.playReadySound.@Tooltip": "Play a pling when stun becomes ready.",
+
+  "text.autoconfig.stuntracker.option.playCooldownSound": "Play Cooldown Sound",
+  "text.autoconfig.stuntracker.option.playCooldownSound.@Tooltip": "Play a bass note when stun goes on cooldown.",
+
+  "text.autoconfig.stuntracker.option.cooldownDebounce": "Cooldown Debounce (ticks)",
+  "text.autoconfig.stuntracker.option.cooldownDebounce.@Tooltip": "Ticks to wait before switching to cooldown. Prevents flicker.",
+
+  "text.autoconfig.stuntracker.option.skillModeKey": "Skill Mode Toggle Key",
+  "text.autoconfig.stuntracker.option.skillModeKey.@Tooltip": "Key to manually toggle skill mode.\nCommon codes: F=70, G=71, H=72, R=82, T=84, Y=89, Z=90, X=88, C=67, V=86, B=66, N=78, M=77\nNumbers: 1=49, 2=50, 3=51, 4=52, 5=53\nDefault: 70 (F)",
+
+  "text.autoconfig.stuntracker.option.skillKey1": "Skill 1 Key",
+  "text.autoconfig.stuntracker.option.skillKey1.@Tooltip": "Key to cast Skill 1 (server slot 0).\nDefault: 90 (Z)",
+
+  "text.autoconfig.stuntracker.option.skillKey2": "Skill 2 Key",
+  "text.autoconfig.stuntracker.option.skillKey2.@Tooltip": "Key to cast Skill 2 (server slot 1).\nDefault: 88 (X)",
+
+  "text.autoconfig.stuntracker.option.skillKey3": "Skill 3 Key",
+  "text.autoconfig.stuntracker.option.skillKey3.@Tooltip": "Key to cast Skill 3 (server slot 2).\nDefault: 67 (C)",
+
+  "text.autoconfig.stuntracker.option.skillKey4": "Skill 4 Key",
+  "text.autoconfig.stuntracker.option.skillKey4.@Tooltip": "Key to cast Skill 4 (server slot 3).\nDefault: 86 (V)",
+
+  "text.autoconfig.stuntracker.option.skillKey5": "Skill 5 Key",
+  "text.autoconfig.stuntracker.option.skillKey5.@Tooltip": "Key to cast Skill 5 (server slot 4).\nDefault: 66 (B)",
+
+  "text.autoconfig.stuntracker.option.skillKey6": "Ultimate Key",
+  "text.autoconfig.stuntracker.option.skillKey6.@Tooltip": "Key to cast the Ultimate (server slot 5).\nDefault: 77 (M)"
+}

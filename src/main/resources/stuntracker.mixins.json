@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.stuntracker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "InventoryAccessor",
+    "SlotClickMixin",
+    "ChatFilterMixin",
+    "SoundFilterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
